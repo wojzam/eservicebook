@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_disabled_bg"
+            android:text="@string/signup"
+            android:textColor="@color/background"
+            android:textColorHint="@color/gray_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".8" />
+
+        <EditText
+            android:id="@+id/new_password_repeated"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="POWTÓRZ HASŁO"
+            android:inputType="textPassword"
+            android:minHeight="40dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/new_password"
+            app:layout_constraintWidth_percent=".8" />
+
+        <EditText
+            android:id="@+id/new_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="E-MAIL"
+            android:inputType="textEmailAddress"
+            android:minHeight="40dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".8" />
+
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="HASŁO"
+            android:inputType="textPassword"
+            android:minHeight="40dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/new_email"
+            app:layout_constraintWidth_percent=".8" />
+
+        <LinearLayout
+            android:id="@+id/layout_accept_terms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/new_password_repeated"
+            app:layout_constraintWidth_percent=".8">
+
+            <CheckBox
+                android:id="@+id/accept_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:padding="5dp"
+                android:text="@string/accept_terms"
+                android:textColor="@color/gray_light" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/additional_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="@string/additional_info"
+            android:textAlignment="textStart"
+            android:textColor="@color/gray_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_accept_terms"
+            app:layout_constraintWidth_percent=".8" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@id/button_signup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/additional_info"
+            app:layout_constraintWidth_percent=".8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

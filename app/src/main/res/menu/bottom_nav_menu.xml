@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_car"
+        android:title="@string/title_home" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/navigation_calendar"-->
+    <!--        android:icon="@drawable/icon_calendar"-->
+    <!--        android:title="@string/title_calendar" />-->
+    <!--    TODO:do zmiany 2-->
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/icon_account"
+        android:title="@string/title_account" />
+
+</menu>

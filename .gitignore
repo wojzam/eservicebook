@@ -1,0 +1,38 @@
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Android specific
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Keystore files (sensitive!)
+*.jks
+*.keystore
+
+# Crashlytics/Firebase
+fabric.properties
+
+# Misc
+*.class

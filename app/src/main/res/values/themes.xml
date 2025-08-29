@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Eservicebook" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryVariant">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="fontFamily">@font/ubuntu</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/teal</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Used for the background -->
+        <item name="android:background">@drawable/entry_bg</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.Eservicebook">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>
