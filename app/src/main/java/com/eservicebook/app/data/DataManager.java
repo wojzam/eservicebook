@@ -4,13 +4,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyProperties;
-
 import androidx.security.crypto.EncryptedSharedPreferences;
 import androidx.security.crypto.MasterKey;
-
 import com.eservicebook.app.Observer;
 import com.eservicebook.app.Subject;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

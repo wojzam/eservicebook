@@ -4,10 +4,8 @@ import android.content.Context;
 import android.graphics.Typeface;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
-
 import com.eservicebook.app.R;
 import com.eservicebook.app.data.HistoryRepair;
 import com.eservicebook.app.data.Vehicle;

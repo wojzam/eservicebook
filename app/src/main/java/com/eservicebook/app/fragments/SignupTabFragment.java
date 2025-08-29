@@ -21,13 +21,10 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.fragment.app.Fragment;
-
 import com.eservicebook.app.R;
 import com.eservicebook.app.ToastDisplay;
 import com.eservicebook.app.api.APIFunctions;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

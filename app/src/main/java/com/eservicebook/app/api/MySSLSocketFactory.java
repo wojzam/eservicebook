@@ -1,11 +1,10 @@
 package com.eservicebook.app.api;
 
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
-
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
 
 public class MySSLSocketFactory extends SSLSocketFactory {
 

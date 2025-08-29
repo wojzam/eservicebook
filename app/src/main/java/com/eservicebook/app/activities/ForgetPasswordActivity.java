@@ -6,13 +6,10 @@ import android.os.Looper;
 import android.os.Message;
 import android.widget.Button;
 import android.widget.EditText;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.eservicebook.app.R;
 import com.eservicebook.app.ToastDisplay;
 import com.eservicebook.app.api.APIFunctions;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

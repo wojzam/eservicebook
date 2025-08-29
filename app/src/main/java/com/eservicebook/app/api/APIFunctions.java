@@ -3,29 +3,12 @@ package com.eservicebook.app.api;
 import android.os.Handler;
 import android.os.Message;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import javax.net.ssl.HttpsURLConnection;
+import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-import javax.net.ssl.HttpsURLConnection;
-
-import static com.eservicebook.app.api.APIConstants.ADD_VEHICLE;
-import static com.eservicebook.app.api.APIConstants.EMAIL;
-import static com.eservicebook.app.api.APIConstants.GET_VEHICLE;
-import static com.eservicebook.app.api.APIConstants.LOG_IN;
-import static com.eservicebook.app.api.APIConstants.LOG_OUT;
-import static com.eservicebook.app.api.APIConstants.PASSWORD;
-import static com.eservicebook.app.api.APIConstants.PASSWORD_REPEATED;
-import static com.eservicebook.app.api.APIConstants.PATH;
-import static com.eservicebook.app.api.APIConstants.RESET_PASSWORD;
-import static com.eservicebook.app.api.APIConstants.RULES_ACCEPTED;
-import static com.eservicebook.app.api.APIConstants.SESSION_ID;
-import static com.eservicebook.app.api.APIConstants.SIGNUP;
-import static com.eservicebook.app.api.APIConstants.VIN;
+import static com.eservicebook.app.api.APIConstants.*;
 
 public class APIFunctions {
 

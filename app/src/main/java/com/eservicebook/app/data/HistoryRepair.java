@@ -11,12 +11,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
 
-import static com.eservicebook.app.api.APIConstants.COST_PARTS;
-import static com.eservicebook.app.api.APIConstants.COST_SERVICE;
-import static com.eservicebook.app.api.APIConstants.MILEAGE;
-import static com.eservicebook.app.api.APIConstants.REPAIRS;
-import static com.eservicebook.app.api.APIConstants.SERVICE;
-import static com.eservicebook.app.api.APIConstants.U_DATE;
+import static com.eservicebook.app.api.APIConstants.*;
 
 public class HistoryRepair implements Comparable<HistoryRepair> {
 

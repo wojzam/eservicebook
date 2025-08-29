@@ -30,10 +30,10 @@
 //            case R.id.navigation_home:
 //                getSupportFragmentManager().beginTransaction().replace(R.id.container, home).commit();
 //                return true;
-////                TODO:do zmiany 2
-////            case R.id.navigation_calendar:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.container, calendar).commit();
-////                return true;
+/// /                TODO:do zmiany 2
+/// /            case R.id.navigation_calendar:
+/// /                getSupportFragmentManager().beginTransaction().replace(R.id.container, calendar).commit();
+/// /                return true;
 //            case R.id.navigation_account:
 //                getSupportFragmentManager().beginTransaction().replace(R.id.container, account).commit();
 //                return true;

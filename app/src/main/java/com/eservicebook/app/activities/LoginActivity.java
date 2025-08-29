@@ -1,10 +1,8 @@
 package com.eservicebook.app.activities;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
 import com.eservicebook.app.LoginAdapter;
 import com.eservicebook.app.R;
 import com.google.android.material.tabs.TabLayout;

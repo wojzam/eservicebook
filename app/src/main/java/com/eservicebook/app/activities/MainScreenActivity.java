@@ -8,12 +8,10 @@ import android.os.Looper;
 import android.os.Message;
 import android.widget.Button;
 import android.widget.LinearLayout;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ContextThemeWrapper;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-
 import com.eservicebook.app.Observer;
 import com.eservicebook.app.R;
 import com.eservicebook.app.ToastDisplay;
@@ -22,18 +20,13 @@ import com.eservicebook.app.data.DataManager;
 import com.eservicebook.app.data.Vehicle;
 import com.eservicebook.app.views.AddVehicleDialog;
 import com.eservicebook.app.views.VehicleSegment;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import static com.eservicebook.app.api.APIConstants.CODE;
-import static com.eservicebook.app.api.APIConstants.CODE_UNAUTHORIZED;
-import static com.eservicebook.app.api.APIConstants.RESPONSES_ADD_VEHICLE;
-import static com.eservicebook.app.api.APIConstants.SESSION_ID;
-import static com.eservicebook.app.api.APIConstants.VEHICLES;
+import static com.eservicebook.app.api.APIConstants.*;
 
 public class MainScreenActivity extends AppCompatActivity implements Observer {
 

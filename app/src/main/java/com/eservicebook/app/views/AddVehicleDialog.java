@@ -11,18 +11,12 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
-
 import com.eservicebook.app.R;
-import com.skydoves.balloon.ArrowOrientation;
-import com.skydoves.balloon.ArrowPositionRules;
 import com.skydoves.balloon.Balloon;
 import com.skydoves.balloon.BalloonAnimation;
 import com.skydoves.balloon.BalloonSizeSpec;
-
-import java.util.Locale;
 
 
 public class AddVehicleDialog {

@@ -16,26 +16,18 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.fragment.app.Fragment;
-
 import com.eservicebook.app.R;
 import com.eservicebook.app.ToastDisplay;
 import com.eservicebook.app.activities.ForgetPasswordActivity;
 import com.eservicebook.app.activities.MainScreenActivity;
 import com.eservicebook.app.api.APIFunctions;
 import com.eservicebook.app.data.DataManager;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import static com.eservicebook.app.api.APIConstants.CODE;
-import static com.eservicebook.app.api.APIConstants.RESPONSES_LOG_IN;
-import static com.eservicebook.app.api.APIConstants.SESSION_ID;
-import static com.eservicebook.app.data.DataManager.KEY_AUTH_EMAIL;
-import static com.eservicebook.app.data.DataManager.KEY_CHECK_BOX;
-import static com.eservicebook.app.data.DataManager.KEY_EMAIL;
-import static com.eservicebook.app.data.DataManager.KEY_PASSWORD;
+import static com.eservicebook.app.api.APIConstants.*;
+import static com.eservicebook.app.data.DataManager.*;
 
 public class LoginTabFragment extends Fragment {
     private final DataManager dataManager = DataManager.getInstance();

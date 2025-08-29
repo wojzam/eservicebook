@@ -7,8 +7,8 @@
     </item>
 
     <item
-        android:drawable="@drawable/car_logo"
-        android:gravity="center">
+            android:drawable="@drawable/car_logo"
+            android:gravity="center">
     </item>
 
 </layer-list>

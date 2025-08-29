@@ -77,13 +77,13 @@
 //            Button addCarButton = root.findViewById(R.id.button_add_car);
 //            pullToRefresh = root.findViewById(R.id.pull_refresh);
 //
-////            getVehicleHandler = new Handler(Looper.myLooper()) {
-////                @Override
-////                public void handleMessage(Message msg) {
-////                    String output = (String) msg.obj;
-////                    interpretGetVehiclesOutput(output);
-////                }
-////            };
+/// /            getVehicleHandler = new Handler(Looper.myLooper()) {
+/// /                @Override
+/// /                public void handleMessage(Message msg) {
+/// /                    String output = (String) msg.obj;
+/// /                    interpretGetVehiclesOutput(output);
+/// /                }
+/// /            };
 //
 //            addVehicleHandler = new Handler(Looper.myLooper()) {
 //                @Override

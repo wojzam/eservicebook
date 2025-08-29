@@ -8,11 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Objects;
 
-import static com.eservicebook.app.api.APIConstants.HISTORY_REPAIRS;
-import static com.eservicebook.app.api.APIConstants.VEHICLE_BRAND;
-import static com.eservicebook.app.api.APIConstants.VEHICLE_MODEL;
-import static com.eservicebook.app.api.APIConstants.VEHICLE_YEAR;
-import static com.eservicebook.app.api.APIConstants.VIN;
+import static com.eservicebook.app.api.APIConstants.*;
 
 public class Vehicle {
 
