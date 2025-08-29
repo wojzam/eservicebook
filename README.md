@@ -1,18 +1,48 @@
-# eservicebook
+# e-servicebook
 
-**Najważniejsze klasy to:**
-- **DataManager** - przechowywuje pojazdy sessionID przekazywane do wszystkich funkcji API, zapis i odczyt danych z pamięci
-                  jest podmiotem obserwacji (powiadomienie w momencie załadowania nowych pojazdów)
-- **APIFunctions** - wywołuje wszystkie funkcje API, wysyła komunikat do przekazanego Handlera 
-- **MainScreenActivity** - główny ekran aplikacji, centrum większości funkcjonalności
-  
-**Do zrobienia:**
-- w całym projekcie oznaczono kilka miejsc do ulepszenia przez TODO
-- ujednolicenie obsługi funkcji API, np. APIFunctions mogłoby interpretować odpowiedzi funkcji i przesyłać dalej tylko jakieś krótkie info jaką akcje podjąć
-- logowanie wywoływanie jest w wielu miejscach - może powinno odbywać się jakoś wewnętrznie zawsze w tej samej klasie
-- obsługa wielowątkowości dodać np. semafory do dostępu do sessionID oraz przy wywołaniu funkcji API
-- przerobienie główniego ekranu, aby było możliwe dodanie nawigacji dolnej i operowanie na fragmentach (na razie były problemy z kontekstem fragmentów i zdarzało się np. nieskończone odświerzanie ekranu, ponieważ komunikat nigdy nie dotarł przez zmiane ekranu)
-- można poprawić kafelki z historią napraw, aby nie używać wielu obiektów TextView tylko np. zastosować tekst w formacie html
-- dodać opcje usuwania pojazdów (poprzez przesunięcie kafelka)
-- dane użytkownika są przechowywane w osobnych zmiennych (utworzyć klase User) i są wczytywane w kilku miejscach zamiast raz się wczytać i przechować
-- istnieją lepsze sposoby implementacji SplashScreen
+![Banner](img/baner.jpg)
+
+**e-servicebook** is an Android app (Java) I developed as part of a commercial startup project.  
+The goal was to create a digital service book system for **car owners** and **mechanics**, where repair history and other vehicle-related data could be stored, viewed, and securely transferred between owners.
+
+Although the startup is no longer active and the backend service is unavailable, this repository showcases my ability to build Android applications in Java that connect to remote APIs, handle secure data storage, and provide a clean user interface.
+
+---
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="img/slice_0_0.jpg" width="22%"  alt="screen1"/>
+  <img src="img/slice_0_1.jpg" width="22%" alt="screen2"/>
+  <img src="img/slice_0_2.jpg" width="22%" alt="screen3"/>
+  <img src="img/slice_0_3.jpg" width="22%" alt="screen4"/>
+</p>
+
+---
+
+## ✨ Features
+
+- User authentication with API integration
+- Secure local storage using **EncryptedSharedPreferences (AndroidX Security Crypto)**
+- Car history browsing with pull-to-refresh
+- Add and manage vehicles linked to user account
+- Session management with automatic re-login
+- Simple, clean Material Design interface
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Java
+- **Frameworks & Libraries:** AndroidX, Material Components, Navigation, LiveData & ViewModel
+- **Security:** AndroidX Security Crypto (AES256 encrypted shared preferences)
+- **Other:** Custom API integration via `HttpsURLConnection`, Observer pattern for UI updates
+
+---
+
+## ⚠️ Disclaimer
+
+This app was developed a few years ago and is no longer maintained.  
+The backend API is not available anymore, so the app cannot be run end-to-end.
+
+---
